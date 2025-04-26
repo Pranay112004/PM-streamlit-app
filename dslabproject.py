@@ -99,8 +99,6 @@ len(df1.locality.unique())
 
 df1_cleaned.shape
 
-pip install pandas numpy matplotlib seaborn scikit-learn xgboost joblib
-
 from sklearn.model_selection import train_test_split, cross_val_score
 from sklearn.preprocessing import StandardScaler, OneHotEncoder
 from sklearn.compose import ColumnTransformer
