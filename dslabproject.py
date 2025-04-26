@@ -9,7 +9,6 @@ Original file is located at
 
 # Commented out IPython magic to ensure Python compatibility.
 import pandas as pd
-import seaborn as sns
 import numpy as np
 from matplotlib import pyplot as plt
 # %matplotlib inline
@@ -23,8 +22,6 @@ print(df1.isnull().sum())
 
 print(df1.describe())
 
-import seaborn as sns
-import matplotlib.pyplot as plt
 
 # Select only numeric columns
 numeric_df = df1.select_dtypes(include=['number'])
