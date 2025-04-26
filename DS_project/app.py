@@ -28,7 +28,7 @@ st.title("🏠 Mumbai House Price Prediction App")
 # Load Data
 @st.cache_data
 def load_data():
-    df = pd.read_csv('mumbai-house-price-data-cleaned.csv')
+    df = pd.read_csv('mumbai_cleaned_data_original.csv')
     return df
 
 df = load_data()
